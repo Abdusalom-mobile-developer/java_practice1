@@ -10,6 +10,6 @@ public class Main {
         oneGOfCandy = priceOfCandy / 1000;
         oneGOfCookies = priceOfCookies / 1000;
         System.out.println("300g of candies costs: "+oneGOfCandy*300+" and 400g cookies costs: "+oneGOfCookies*400);
-        System.out.println("2kg of candies costs: "+priceOfCandy*2+" and 400g cookies costs: "+priceOfCookies+oneGOfCookies*800);
+        System.out.println("2kg of candies costs: "+priceOfCandy*2+" and 1kg 800g cookies costs: "+(priceOfCookies+(oneGOfCookies*800)));
     }
 }
